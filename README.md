@@ -257,7 +257,7 @@ public class execServlet extends HttpServlet {
 
 ![image-20210830153042057](pic/代码审计总结/image-20210830153042057.png)
 
-正常是个ping的结果 利用&（注意url编码可注入其他命令）造成命令执行
+正常是个ping的结果 利用&（注意url编码）可注入其他命令造成命令执行
 
 ![image-20210830153125018](pic/代码审计总结/image-20210830153125018.png)
 
